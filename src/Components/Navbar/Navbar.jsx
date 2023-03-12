@@ -1,21 +1,30 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './navbar.css'
 import {MdModeOfTravel} from "react-icons/md"
 import {AiFillCloseCircle} from "react-icons/ai"
 import {BsGrid3X3Gap} from "react-icons/bs"
 const Navbar = () => {
+  const [active ,setActive] = useState('navBar')
+//function fos show toggle
+  const ShowNav = () =>{
+    setActive('navBar activeNavbar')
+  }
+//function for remove toggle
+const removeNav = () =>{
+  setActive('navBar')
+}
   return (
     <div>
     <section classnName="navbarSection">
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
-            <h1> <MdModeOfTravel className='icon'/>ghumoPhiro.</h1>
+            <h1> <MdModeOfTravel className='icon'/>TravelKar.</h1>
           </a>
         </div>
-        <div className="navBar">
+        <div className={active}>
           <ul className="navLists flex">
-            
+
             <li className="navItem">
               <a href="#" className="navLink">Home</a>
             </li>
@@ -42,11 +51,13 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <div className="closeNavbar">
+          <div onClick={removeNav}
+          className="closeNavbar">
             <AiFillCloseCircle  className='icon'/>
           </div>
         </div>
-        <div className="toggleNavbar">
+        <div onClick={ShowNav}
+        className="toggleNavbar">
           <BsGrid3X3Gap className="icon" />
         </div>
       </header>
