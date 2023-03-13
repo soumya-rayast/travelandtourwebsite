@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import './navbar.css'
-import {MdModeOfTravel} from "react-icons/md"
+import {BiMapPin} from "react-icons/bi"
 import {AiFillCloseCircle} from "react-icons/ai"
-import {BsGrid3X3Gap} from "react-icons/bs"
+import {BiDotsVertical} from "react-icons/bi"
 const Navbar = () => {
   const [active ,setActive] = useState('navBar')
 //function fos show toggle
@@ -19,7 +19,7 @@ const removeNav = () =>{
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
-            <h1> <MdModeOfTravel className='icon'/>TravelKar.</h1>
+            <h1> <BiMapPin className='icon'/>TravelKar.</h1>
           </a>
         </div>
         <div className={active}>
@@ -48,6 +48,7 @@ const removeNav = () =>{
             </li>
             <button className='btn'>
               <a href="#">Book Now</a>
+              
             </button>
           </ul>
 
@@ -58,7 +59,7 @@ const removeNav = () =>{
         </div>
         <div onClick={ShowNav}
         className="toggleNavbar">
-          <BsGrid3X3Gap className="icon" />
+          <BiDotsVertical className="icon" />
         </div>
       </header>
     </section>

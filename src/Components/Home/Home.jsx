@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import {GrLocation} from "react-icons/gr"
 import {HiFilter} from "react-icons/hi"
-import video from '../../Media/video1.mp4'
+import video from '../../Media/video2.mp4'
 const Home = () => {
   return (
     <section className="home">
@@ -44,6 +44,13 @@ const Home = () => {
           <div className="searchOptions flex" >
             <HiFilter className='icon' />
             <span>More Filter</span>
+          </div>
+        </div>
+        <div className="homeFooterIcons flex">
+          <div className="rightIcons">
+            
+          </div>
+          <div className="leftIcons">
           </div>
         </div>
       </div>

@@ -42,8 +42,9 @@ video{
 
 }
 .textDiv .smallText{
-    font-size: 13px;
+    font-size: 18px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 .homeTitle{
     position: relative;
@@ -60,7 +61,7 @@ video{
     display: block;
     color: black;
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 500;
 }
 .label_total{
@@ -91,8 +92,7 @@ input::placeholder{
 }
 .icon{
     font-size:  18px;
-    color: black
-    !important;
+    color: black;
     margin-left:10px;
 }
 .input[type=range]{
@@ -100,7 +100,7 @@ input::placeholder{
 }
 .searchOptions{
     position: absolute;
-    background: skyblue;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,108,204,1) 57%, rgba(0,212,255,1) 100%);
     width: max-content;
     bottom: -.7rem;
     column-gap:  .8rem;
@@ -112,6 +112,8 @@ input::placeholder{
 }
 .searchOptions .icon{
     font-size: 18px;
+    color: aliceblue;
+    
 }
 .searchOptions span{
     font-size: 15px;
