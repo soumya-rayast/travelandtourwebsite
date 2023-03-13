@@ -1,12 +1,13 @@
-.home{
+.home {
     width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;   
+    margin: auto;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -16,7 +17,8 @@
     z-index: 1;
     mix-blend-mode: hard-light;
 }
-video{
+
+video {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -24,7 +26,8 @@ video{
     bottom: 0;
     object-fit: cover;
 }
-.homeContent{
+
+.homeContent {
     width: 100%;
     height: max-content;
     padding: 8rem 1.5rem 3rem;
@@ -37,26 +40,31 @@ video{
     color: white;
     z-index: 100;
 }
-.textDiv{
+
+.textDiv {
     padding: 2rem 0;
 
 }
-.textDiv .smallText{
+
+.textDiv .smallText {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
 }
-.homeTitle{
+
+.homeTitle {
     position: relative;
     font-size: 1.8rem;
 }
-.cardDiv{
+
+.cardDiv {
     position: relative;
     padding: 2rem 1rem;
     background-color: whitesmoke;
     border-radius: 10px;
     gap: 1rem;
 }
+
 .cardDiv label {
     display: block;
     color: black;
@@ -64,22 +72,26 @@ video{
     font-size: 18px;
     font-weight: 500;
 }
-.label_total{
+
+.label_total {
     justify-content: space-between;
     align-items: center;
 }
-.total{
-   color: black; 
-   font-size: 18px;
-   padding-bottom: 10px; 
+
+.total {
+    color: black;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
-.input{
+
+.input {
     height: 40px;
     padding: 0 1rem;
-    background:rgb(214, 214, 214);
+    background: rgb(214, 214, 214);
     border-radius: 3rem;
 }
-input{
+
+input {
     background: none;
     border: none;
     outline: none;
@@ -87,36 +99,57 @@ input{
     font-size: 13px;
     font-weight: 500;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 18px;
 }
-.icon{
-    font-size:  18px;
+
+.icon {
+    font-size: 18px;
     color: black;
-    margin-left:10px;
+    margin-left: 10px;
 }
-.input[type=range]{
+
+.input[type=range] {
     background: blue;
 }
-.searchOptions{
+
+.searchOptions {
     position: absolute;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,108,204,1) 57%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 108, 204, 1) 57%, rgba(0, 212, 255, 1) 100%);
     width: max-content;
     bottom: -.7rem;
-    column-gap:  .8rem;
-    padding:  5px 1rem;
-    left :50%;
+    column-gap: .8rem;
+    padding: 5px 1rem;
+    left: 50%;
     border-radius: 1rem;
-    transform:  translate(-50%);
+    transform: translate(-50%);
     justify-content: center;
 }
-.searchOptions .icon{
+
+.searchOptions .icon {
     font-size: 18px;
     color: aliceblue;
-    
+
 }
-.searchOptions span{
+
+.searchOptions span {
     font-size: 15px;
 }
 
 /* .searchOptions :: hover   */
+.homeFooterIcons {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.homeFooterIcons .icon {
+    color: white;
+    font-size: 30px;
+    margin:  0 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.homeFooterIcons .icon:hover{
+    color: black;
+}
