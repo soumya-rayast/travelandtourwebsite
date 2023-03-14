@@ -56,7 +56,7 @@
     }
     .btn{
         margin-top:  1rem;
-        background: linear-gradient(90deg, rgba(16,144,177,1) 0%, rgba(133,154,255,1) 52%, rgba(133,154,255,1) 64%);;
+        background: linear-gradient(90deg, rgba(16,144,177,1) 0%, rgba(133,154,255,1) 52%, rgba(133,154,255,1) 64%);
     }
     .btn a{
         font-weight: 600;
