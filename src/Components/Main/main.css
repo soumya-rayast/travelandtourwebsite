@@ -1,0 +1,48 @@
+
+.main{
+    padding: 2rem;
+    width: 100%;
+}
+.main .secTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2rem;
+}
+.main .secTitle .title{
+    position: relative;
+    width: max-content;
+    color: black;
+    margin:  1rem 0;
+    z-index: 2;
+}
+.secContent{
+    justify-content: center;
+    gap: 1..5rem;
+}
+.secContent .singleDestination{
+    background-color: rgb(205, 221, 235);
+    height: 100%;
+    display: grid;
+    row-gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow:  0 2px 4px grey;
+    overflow: hidden;
+    padding: 1rem;
+}
+.secContent .singleDestination:hover{
+    background-color: rgb(202, 212, 212);
+    box-shadow:  1 4px 4px rgb(122, 109, 109);
+    transition:  .3s ease;
+}
+.imageDiv{
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+.imageDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition:  2s ease;
+}

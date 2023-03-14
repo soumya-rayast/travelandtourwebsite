@@ -1,12 +1,12 @@
 import React from 'react'
 import './home.css'
-import {GrLocation} from "react-icons/gr"
-import {HiFilter} from "react-icons/hi"
-import {FaFacebookSquare} from "react-icons/fa"
-import {FaInstagramSquare} from "react-icons/fa"
-import {FaTwitterSquare} from "react-icons/fa"
-import {VscTasklist} from "react-icons/vsc"
-import {TbAppsFilled} from "react-icons/tb"
+import { GrLocation } from "react-icons/gr"
+import { HiFilter } from "react-icons/hi"
+import { FaFacebookSquare } from "react-icons/fa"
+import { FaInstagramSquare } from "react-icons/fa"
+import { FaTwitterSquare } from "react-icons/fa"
+import { VscTasklist } from "react-icons/vsc"
+import { TbAppsFilled } from "react-icons/tb"
 import video from '../../Media/video2.mp4'
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
           <div className="dateInput">
             <label htmlFor="date">Select your date :</label>
             <div className="input flex">
-              <input type="date"/>
+              <input type="date" />
             </div>
           </div>
           <div className="priceInput">
@@ -43,7 +43,7 @@ const Home = () => {
               <h3 className="total">$500</h3>
             </div>
             <div className="input flex" >
-              <input type="range" max="5000" min="500"/>
+              <input type="range" max="5000" min="500" />
             </div>
           </div>
           <div className="searchOptions flex" >
@@ -58,8 +58,8 @@ const Home = () => {
             <FaTwitterSquare className="icon" />
           </div>
           <div className="leftIcons">
-            <VscTasklist className="icon"/>
-            <TbAppsFilled className="icon"/>
+            <VscTasklist className="icon" />
+            <TbAppsFilled className="icon" />
           </div>
         </div>
       </div>
