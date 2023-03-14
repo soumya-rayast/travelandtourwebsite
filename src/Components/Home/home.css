@@ -116,7 +116,7 @@ input::placeholder {
 
 .searchOptions {
     position: absolute;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 108, 204, 1) 57%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(16,144,177,1) 0%, rgba(133,154,255,1) 52%, rgba(133,154,255,1) 64%);;
     width: max-content;
     bottom: -.7rem;
     column-gap: .8rem;

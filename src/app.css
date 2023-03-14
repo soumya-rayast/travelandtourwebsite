@@ -43,7 +43,7 @@ li{
     font-weight: 500;
 } 
 .btn:hover{
-    background: green;
+    background: linear-gradient(0deg, rgba(97,80,210,0.9871794871794872) 13%, rgba(190,95,208,1) 72%);;
 }
 img,video{
     width: 100%;
