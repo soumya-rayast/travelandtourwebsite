@@ -22,7 +22,7 @@ const Footer = () => {
         <img src={imgfooter} alt="" />
       </div>
       <div data-aos='fade-up'
-      className="secContent container">
+      className="secContents container">
         <div className="contactDiv flex">
           <div className="text">
             <small>Keep in Touch</small>

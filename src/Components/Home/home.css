@@ -195,20 +195,26 @@ input::placeholder {
     .home {
         height: 70vh;
     }
+    .homeFooterIcons .icon {
+        color: black;
+        font-size: 30px;
+        margin: 0 5px;
+        cursor: pointer;
+        font-weight: 600;
+    }
 }
 
 @media screen and (min-width: 1240px) {
     .home {
-        height: 800vh;
+        height: 150vh;
     }
-
     .homeContent {
         padding-left: 0;
         padding-right: 0;
     }
 
     .cardDiv {
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
         grid-template-columns: repeat((3, 1fr));
     }
 
@@ -217,7 +223,7 @@ input::placeholder {
     }
 
     .searchOptions {
-        bottom: -1rem;
+        bottom: 1rem;
         padding: 8px 1rem;
 
     }

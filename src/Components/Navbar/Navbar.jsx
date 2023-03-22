@@ -47,8 +47,7 @@ const removeNav = () =>{
               <a href="#" className="navLink">Contact</a>
             </li>
             <button className='btn'>
-              <a href="#">Book Now</a>
-              
+              <a href="#">Book Now</a>          
             </button>
           </ul>
 

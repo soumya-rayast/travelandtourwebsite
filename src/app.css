@@ -35,7 +35,7 @@ li{
 }
 .btn{
     padding:  .6rem 1.5rem;
-    background-color: lightgreen;
+    background: linear-gradient(90deg, rgba(16,144,177,1) 0%, rgba(133,154,255,1) 52%, rgba(133,154,255,1) 64%);
     border-radius: 3rem;
     border: none;
     outline: none;
