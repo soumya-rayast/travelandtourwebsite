@@ -1,8 +1,9 @@
 <H1>Responsive Tour and Travel Website using Reactjs.</H1>
 <h4>Website contain Home Page , Login Page and Signup Page</h4>
 <h2>In this repositries only contain's frontend part </h2>
-![page1](https://user-images.githubusercontent.com/113257526/227799698-9ecf543d-f71f-4791-92a6-d87e382dff87.jpg)
 
+![page1](https://user-images.githubusercontent.com/113257526/227800144-b2f34ac4-c850-4429-a4b7-04b4c92f2af8.jpg)
+![page2](https://user-images.githubusercontent.com/113257526/227800149-33aac5ca-010c-433f-ad74-2f585421f8ad.jpg)
 
 # Getting Started with Create React App
 
