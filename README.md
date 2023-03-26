@@ -2,7 +2,6 @@
 <h4>Website contain Home Page , Login Page and Signup Page</h4>
 <h2>In this repositries only contain's frontend part </h2>
 ![page1](https://user-images.githubusercontent.com/113257526/227799698-9ecf543d-f71f-4791-92a6-d87e382dff87.jpg)
-![page2](https://user-images.githubusercontent.com/113257526/227799707-d23da197-a5aa-482b-a08f-77e9c23ae425.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
