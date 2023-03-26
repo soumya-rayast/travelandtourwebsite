@@ -4,14 +4,17 @@
 }
 .registerPage{
     width: 100%;
-    background-color: whitesmoke;
+    background-image: url(../../Media/regback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .register{
-    width: 400px;
+    width: 300px;
     background-color: aliceblue;
     border-radius: 10px;
     padding: 1rem;

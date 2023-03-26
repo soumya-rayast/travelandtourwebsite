@@ -122,4 +122,7 @@
     .header{
         padding: 1rem 8.5rem;
     }
+    .navLists .navItem{
+        font-weight: 600;
+    }
 }

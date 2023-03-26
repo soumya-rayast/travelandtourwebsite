@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
+import { Link } from "react-router-dom"
 import { BiMapPin } from "react-icons/bi"
 import { AiFillCloseCircle } from "react-icons/ai"
 import { AiFillHome } from "react-icons/ai"
@@ -28,7 +29,9 @@ const Navbar = () => {
 
               <li className="navItem">
                 <a href="#" className="navLink">
-                  Home
+                  <Link to="/">
+                    Home
+                  </Link>
                 </a>
               </li>
               <li className="navItem">
@@ -44,10 +47,18 @@ const Navbar = () => {
                 <a href="#" className="navLink">Contact</a>
               </li>
               <li className="navItem">
-                <a href="#" className="navLink">Log in</a>
+                <a href="#" className="navLink">
+                  <Link to="/login">
+                    Log In
+                  </Link>
+                </a>
               </li>
               <li className="navItem">
-                <a href="#" className="navLink">Sign Up</a>
+                <a href="#" className="navLink">
+                <Link to="/register">
+                    Sign up
+                  </Link>
+                  </a>
               </li>
               <button className='btn'>
                 <a href="#">Book Now</a>

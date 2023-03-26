@@ -1,16 +1,23 @@
 import React from 'react'
 import './app.css'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import HomePage from './HomePage'
 import Register from './Components/Register/Register'
+import LogIn from './Components/LoginPage/LogIn'
 const App = () => {
   return (
-    <>
-    {/* <HomePage/> */}
-    <Register/>
-    </>
+    <div className='App'>
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<HomePage/>}/>
+          <Route path='/login' element={<LogIn/>}/>
+          <Route path='/register' element={<Register/>}/>
+
+        </Routes>
+      </Router>
+    </div>
   )
 }
-
 export default App
 // import React from 'react'
 // import './app.css'
