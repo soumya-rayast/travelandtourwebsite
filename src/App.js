@@ -1,3 +1,17 @@
+import React from 'react'
+import './app.css'
+import HomePage from './HomePage'
+import Register from './Components/Register/Register'
+const App = () => {
+  return (
+    <>
+    {/* <HomePage/> */}
+    <Register/>
+    </>
+  )
+}
+
+export default App
 // import React from 'react'
 // import './app.css'
 // import Navbar from "./Components/Navbar/Navbar"
@@ -16,15 +30,3 @@
 // }
 
 // export default App
-import React from 'react'
-import './app.css'
-import HomePage from './HomePage'
-const App = () => {
-  return (
-    <>
-    <HomePage/>
-    </>
-  )
-}
-
-export default App

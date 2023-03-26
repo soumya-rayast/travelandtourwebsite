@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registerPage{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 4px 4px rgb(18, 44, 65);
+    transition: .3s ease;
+}
+.register >input{
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: black;
+    margin: 0.6rem 0;
+    padding: 0.6rem 0.8rem;
+    width: 90%;
+    font-size: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.register>.button{
+    background: linear-gradient(90deg, rgba(16,144,177,1) 0%, rgba(133,154,255,1) 52%, rgba(133,154,255,1) 64%);
+    border: 1px;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.register>.button:hover{
+    background: linear-gradient(0deg, rgba(97,80,210,0.9871794871794872) 13%, rgba(190,95,208,1) 72%);;
+
+}
+.register>.or{
+    font-size: 20px;
+}

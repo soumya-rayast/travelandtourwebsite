@@ -37,7 +37,7 @@
 .secContent .singleDestination:hover {
     /* background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
     background-color: rgb(149, 199, 244);
-    box-shadow: 1 4px 4px rgb(122, 109, 109);
+    box-shadow: 1px 4px 4px rgb(122, 109, 109);
     transition: .3s ease;
 }
 
